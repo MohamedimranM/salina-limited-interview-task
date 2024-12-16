@@ -1,4 +1,7 @@
+import Image from "next/image";
 import React from "react";
+import ImageOne from './assets/image2.png'
+import ImageTwo from './assets/image3.png'
 
 export function PropertyList()  {
   return (
@@ -34,8 +37,8 @@ export function PropertyList()  {
           <div className="card shadow-sm border-0">
             
             <div className="position-relative">
-              <img
-                
+              <Image
+                src={ImageOne}
                 className="card-img-top"
                 alt="Studio"
                 style={{height: "400px", objectFit: "cover", backgroundColor: "#0000" }}
@@ -67,11 +70,11 @@ export function PropertyList()  {
           <div className="card shadow-sm border-0">
            
             <div className="position-relative">
-              <img
-                
+              <Image
+                src={ImageTwo}
                 className="card-img-top"
                 alt="1-3 Bedrooms"
-                style={{ height: "400px", width:"200px", objectFit: "cover" }}
+                style={{ height: "400px", objectFit: "cover" }}
               />
               <div className="position-absolute p-2" style={{ top: 0, left: 0 }}>
                 <span className="badge bg-dark me-1">Featured</span>
