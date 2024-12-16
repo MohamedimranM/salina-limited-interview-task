@@ -1,7 +1,6 @@
-import Image from "next/image";
 import React from "react";
 
-const PropertyList = () => {
+export function PropertyList()  {
   return (
     <div className="container mt-5">
       <div className="d-flex justify-content-between align-items-center mb-4">
@@ -100,4 +99,4 @@ const PropertyList = () => {
   );
 };
 
-export default PropertyList;
+

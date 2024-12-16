@@ -1,3 +1,11 @@
+// import { CiHome } from "react-icons/ci";
+// import { IoMdHome } from "react-icons/ci";
+// import { MdMiscellaneousServices } from "react-icons/ci";
+// import { FaRegNewspaper } from "react-icons/ci";
+// import { FcAbout } from "react-icons/ci";
+// import { CiLocationOn } from "react-icons/ci";
+// import { MdManageAccounts } from "react-icons/ci";
+
 export function UserProfile() {
   return (
     <>
@@ -114,21 +122,55 @@ export function UserProfile() {
         </div>
         <div className="container mb-3">
           <div className="d-flex justify-content-center align-items-center mb-3">
-            <button className="btn rounded-pill me-2" style={{backgroundColor: "#E4E0E1"}} >Full Page</button>
-            <button className="btn rounded-pill me-2" style={{backgroundColor: "#E4E0E1"}
-
-            }>
+            <button
+              className="btn rounded-pill me-2 text-center"
+              style={{ backgroundColor: "#E4E0E1" }}
+            >
+              {/* <CiHome /> */}
+               Full Page
+            </button>
+            <button
+              className="btn rounded-pill me-2"
+              style={{ backgroundColor: "#E4E0E1" }}
+            >
+              {/* <IoMdHome /> */}
               Properties
             </button>
-            <button className="btn rounded-pill me-2" style={{backgroundColor: "#E4E0E1"}}>Services</button>
-            <button className="btn rounded-pill me-2" style={{backgroundColor: "#E4E0E1"}}>News</button>
-            <button className="btn rounded-pill me-2" style={{backgroundColor: "#E4E0E1"}}>
+            <button
+              className="btn rounded-pill me-2"
+              style={{ backgroundColor: "#E4E0E1" }}
+            >
+              {/* <MdMiscellaneousServices />  */}
+              Services
+            </button>
+            <button
+              className="btn rounded-pill me-2"
+              style={{ backgroundColor: "#E4E0E1" }}
+            >
+              {/* <FaRegNewspaper />  */}
+              News
+            </button>
+            <button
+              className="btn rounded-pill me-2"
+              style={{ backgroundColor: "#E4E0E1" }}
+            >
+              {/* <CiLocationOn />  */}
               Locations
             </button>
-            <button className="btn rounded-pill me-2" style={{backgroundColor: "#E4E0E1"}}>
+            <button
+              className="btn rounded-pill me-2"
+              style={{ backgroundColor: "#E4E0E1" }}
+            >
+              {/* <MdManageAccounts />  */}
               Management
             </button>
-            <button className="btn rounded-pill" style={{backgroundColor: "#E4E0E1"}}>About</button>
+            <button
+              className="btn rounded-pill"
+              style={{ backgroundColor: "#E4E0E1" }}
+            >
+              {/* <FcAbout /> */}
+               About
+            </button>
           </div>
 
           <div className="card p-4 shadow-sm">

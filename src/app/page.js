@@ -1,7 +1,7 @@
 import { HeadSection } from "@/components/headSection";
 import { Management } from "@/components/management";
 import { MissionValue } from "@/components/missionValue";
-import PropertyList from "@/components/property";
+import {PropertyList} from "@/components/property";
 import { UserProfile } from "@/components/userProfile";
 import { UserSection } from "@/components/userSection";
 

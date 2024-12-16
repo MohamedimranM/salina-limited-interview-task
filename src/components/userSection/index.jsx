@@ -12,7 +12,7 @@ export function UserSection() {
               />
               <h5 className="fw-bold border p-2 rounded">OGDA MAC1</h5>
 
-              <div className="d-flex">
+              <div className="d-flex mt-4">
                 <p style={{ color: "#A077FF" }}>User Entry :</p>
                 <div>
                   <p>DE ODGA MAC1-631</p>
@@ -20,7 +20,7 @@ export function UserSection() {
                 </div>
                 <span className="border-right"></span>
               </div>
-              <div className="d-flex">
+              <div className="d-flex mt-4">
                 <p style={{ color: "#A077FF" }}>Create date :</p>
                 <div>
                   <p>31/01/2024</p>
@@ -28,7 +28,7 @@ export function UserSection() {
                 </div>
                 <span className="border-right"></span>
               </div>
-              <div className="d-flex">
+              <div className="d-flex mt-4">
                 <p style={{ color: "#A077FF" }}>Modify date :</p>
                 <div>
                   <p>31/01/2024</p>
