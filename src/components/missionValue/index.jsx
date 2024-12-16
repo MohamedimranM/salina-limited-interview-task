@@ -1,7 +1,7 @@
 export function MissionValue() {
   return (
     <>
-      <div className="card container mt-2">
+      <div className="container mt-2">
         <div className="card p-4 shadow-sm mb-4">
           <h4 className="fw-bold mb-3">Mission & Vision & Values</h4>
           <div className="mb-3">

@@ -6,7 +6,7 @@ export function UserProfile() {
           <div
             style={{
               backgroundColor: "#E4E0E1",
-              height: "200px",
+              height: "300px",
               borderRadius: "10px",
             }}
           ></div>
@@ -29,9 +29,9 @@ export function UserProfile() {
           <div
             className=" bg-light border rounded-circle d-inline-block position-relative"
             style={{
-              width: "140px",
-              height: "140px",
-              left: "30px",
+              width: "180px",
+              height: "180px",
+              left: "50px",
               marginTop: "-80px",
               boxShadow: "0 0 10px rgba(0,0,0,0.1)",
             }}
@@ -113,20 +113,22 @@ export function UserProfile() {
           </div>
         </div>
         <div className="container mb-3">
-          <div className="d-flex justify-content-start align-items-center mb-3">
-            <button className="btn btn-primary me-2">Full Page</button>
-            <button className="btn btn-outline-secondary me-2">
+          <div className="d-flex justify-content-center align-items-center mb-3">
+            <button className="btn rounded-pill me-2" style={{backgroundColor: "#E4E0E1"}} >Full Page</button>
+            <button className="btn rounded-pill me-2" style={{backgroundColor: "#E4E0E1"}
+
+            }>
               Properties
             </button>
-            <button className="btn btn-outline-secondary me-2">Services</button>
-            <button className="btn btn-outline-secondary me-2">News</button>
-            <button className="btn btn-outline-secondary me-2">
+            <button className="btn rounded-pill me-2" style={{backgroundColor: "#E4E0E1"}}>Services</button>
+            <button className="btn rounded-pill me-2" style={{backgroundColor: "#E4E0E1"}}>News</button>
+            <button className="btn rounded-pill me-2" style={{backgroundColor: "#E4E0E1"}}>
               Locations
             </button>
-            <button className="btn btn-outline-secondary me-2">
+            <button className="btn rounded-pill me-2" style={{backgroundColor: "#E4E0E1"}}>
               Management
             </button>
-            <button className="btn btn-outline-secondary">About</button>
+            <button className="btn rounded-pill" style={{backgroundColor: "#E4E0E1"}}>About</button>
           </div>
 
           <div className="card p-4 shadow-sm">
